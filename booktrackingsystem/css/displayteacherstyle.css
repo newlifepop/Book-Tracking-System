@@ -1,0 +1,52 @@
+body {
+  background: url(bgimage.jpg), #c1bdba;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.form {
+  background: rgba(19, 35, 47, 0.9); 
+  padding: 40px;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+table{
+	color: #c1bdba;
+	text-align: center;
+}
+
+table:hover{
+	color: #179b77;
+}
+
+.field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.button{
+	border: 0;
+	outline: none;
+	border-radius: 0;
+	padding: 15px 0;
+	font-size: 2rem;
+	font-weight: 600;
+	letter-spacing: .1em;
+	background: #1ab188;
+	color: #ffffff;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	-webkit-appearance: none;
+}
+
+.button:hover, .button:focus{
+	background: #179b77;
+}
+
+.button-block{
+	display: block;
+	width: 20%;
+	margin-left: 40%;
+}

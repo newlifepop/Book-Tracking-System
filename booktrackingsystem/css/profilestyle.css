@@ -1,0 +1,86 @@
+body{
+	background-image: url(bgimage.jpg);
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+
+h2{
+	text-align: center;
+	color: #1ab188;
+	margin-top: -30px;
+}
+
+.form{
+	background: rgba(19, 35, 47, 0.9);
+	padding-top: 40px;
+	padding-bottom: 80px;
+	max-width: 87%;
+	margin-left: 5%;
+	margin-top: 15%;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+ul li a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+ul li{
+	display: block;
+	float: left;
+	width: 150px;
+	height: 40;
+	background: rgba(160, 179, 176, 0.25);
+	font-size: 20px;
+	line-height: 50px;
+}
+
+ul li a:hover{
+	background: #179b77;
+}
+
+ul li ul li{
+	display: none;
+	background-color: gray;
+}
+
+ul li:hover ul li{
+	display: block;
+}
+
+.button{
+	border: 0;
+	outline: none;
+	border-radius: 0;
+	padding: 15px, 0;
+	font-size: 1.5rem;
+	font-weight: 600;
+	letter-spacing: .1em;
+	margin-left: 46.5%;
+	background: #1ab188;
+	color: white;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	-webkit-appearance: none;
+}
+
+.button:hover, .button:focus{
+	background: #179b77;
+}
+
+.button-block{
+	display: inline-block;
+	width: 100%;
+}
